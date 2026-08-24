@@ -19,4 +19,4 @@ def test_model_prediction():
 
     prediction = model.predict(student)
 
-    assert prediction[0] in [0, 1]
+    assert prediction[0] == 999
